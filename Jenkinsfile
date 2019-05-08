@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('test') {
+    stage('checkout') {
       steps {
-        echo 'test'
+        echo 'checkout'
       }
     }
   }
