@@ -11,5 +11,15 @@ pipeline {
         echo 'sonarqube'
       }
     }
+    stage('deploy') {
+      steps {
+        echo 'deploy'
+      }
+    }
+    stage('auto test') {
+      steps {
+        echo 'auto test'
+      }
+    }
   }
 }
