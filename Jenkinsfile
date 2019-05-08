@@ -6,5 +6,10 @@ pipeline {
         echo 'checkout'
       }
     }
+    stage('sonarqube') {
+      steps {
+        echo 'sonarqube'
+      }
+    }
   }
 }
